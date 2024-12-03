@@ -1,0 +1,186 @@
+#body
+{
+  display: inline-block;
+  width: 100%;
+
+  #con{
+    background-image: url("https://www.turkey-visit.com/map/india/jabalpur/map_of_Jabalpur.jpg");
+    #text-box{
+
+        display: inline-block;
+        // border: 1px solid black;
+        background-color: #352f28;
+        width: 400px;
+        padding: 20px;
+        margin: 1vmin;
+        border-radius: 0px 0px 100px 0px;
+      #text-box-in{
+        // border: 1px solid black;
+        // margin: 40px;
+        #work{
+          color: white;
+          margin: 30px;
+          margin-left: 0px;
+        }
+        p{
+          color: #ffffffb8;
+          margin: 5px;
+        }
+        #day-list{
+          // border: 1px solid black;
+          color: white;
+          div{
+            display: grid;
+            text-align: center;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3);
+
+              // margin: 10px;
+              padding: 5px;
+              // font-size: 20px;
+
+            // grid-row: 3;
+            // flex-wrap: wrap;
+
+
+            // justify-content: ;
+
+
+          }
+        }
+        #address-book{
+          div{
+            // border: 1px solid black;
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
+            margin: 20px;
+            img {
+              // background-color: green;
+              display: inline-block;
+
+            }
+            div {
+              // background-color: green;
+              display: inline-block;
+              margin: 0px;
+              padding:0px;
+              h4{
+                color: white;
+              }
+              p{
+                color: #ffffffb8;
+              }
+            }
+
+          }
+        }
+      }
+    }
+  }
+}
+#daybt{
+all: unset;
+background-color: rgb(255, 0, 47);
+border-radius: 50px;
+padding: 5px;
+padding-top: 1px;
+padding-bottom: 1px;
+font-size: 13px;
+}
+
+
+@media screen and (max-width:768px){
+  #body
+{
+  display: inline-block;
+  width: 100%;
+
+  #con{
+    background-image: url("https://www.turkey-visit.com/map/india/jabalpur/map_of_Jabalpur.jpg");
+    #text-box{
+
+        display: inline-block;
+        // border: 1px solid black;
+        background-color: #352f28;
+        width: auto;
+        padding: 20px;
+        margin: 1vmin;
+        border-radius: 0px 0px 100px 0px;
+      #text-box-in{
+        // border: 1px solid black;
+        // margin: 40px;
+        #work{
+          color: white;
+          margin: 30px;
+          margin-left: 0px;
+        }
+        p{
+          color: #ffffffb8;
+          margin: 5px;
+        }
+        #day-list{
+          // border: 1px solid black;
+          color: white;
+          div{
+            display: grid;
+            text-align: center;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3);
+
+              // margin: 10px;
+              padding: 5px;
+              // font-size: 20px;
+
+            // grid-row: 3;
+            // flex-wrap: wrap;
+
+
+            // justify-content: ;
+
+
+          }
+        }
+        #address-book{
+          div{
+            // border: 1px solid black;
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
+            margin: 20px;
+            img {
+              // background-color: green;
+              display: inline-block;
+
+            }
+            div {
+              // background-color: green;
+              display: inline-block;
+              margin: 0px;
+              padding:0px;
+              h4{
+                color: white;
+              }
+              p{
+                color: #ffffffb8;
+              }
+            }
+
+          }
+        }
+      }
+    }
+  }
+}
+#daybt{
+all: unset;
+background-color: rgb(255, 0, 47);
+border-radius: 50px;
+padding: 5px;
+padding-top: 1px;
+padding-bottom: 1px;
+font-size: 13px;
+}
+
+
+}

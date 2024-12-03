@@ -1,0 +1,28 @@
+#body{
+  margin-bottom: 100px;
+  #con{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    div{
+      display: inline-block;
+      border: 1px solid black;
+      div{
+
+          div{
+            // all: unset;
+            width: auto;
+
+              *{
+                display: inline-block;
+                padding: 10px;
+              }
+
+          }
+
+      }
+
+    }
+  }
+}

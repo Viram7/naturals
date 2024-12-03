@@ -1,0 +1,30 @@
+<div id="body">
+  <div id="title-box" >
+
+
+  </div>
+
+  <div id="con">
+
+    <div id="text">
+      <h1> Our Services</h1>
+      <div id="drowdown" *ngFor="let li of services_list ; let i = index " >
+
+            <div (click)="show_list_text(li)">
+              <li > {{i+1}}. {{li.title}}  <button id="arrow_bt"  > > </button> </li>
+
+                <p   *ngIf="li.islist_text"  > {{li.description}}  </p>
+
+              <div id="hr" ></div>
+            </div>
+
+      </div>
+    </div>
+    <div id="image">
+      <!-- <div id="img-up-text"> <p> Amet minim mollit non deserunt ullamco est aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </p></div> -->
+      <span id="img-up-text" > <p > Amet minim mollit non deserunt ullamco est aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. </p></span>
+      <img src="https://cdn.prod.website-files.com/64955fc7b431e096dc683699/649a9e9d68278b47d19a9a33_Service%20Img.webp">
+    </div>
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.js"></script>

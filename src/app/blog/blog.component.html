@@ -1,0 +1,47 @@
+<div id="body-ban">
+  <div id="con-ban">
+    <div>
+      <p>blog</p>
+    </div>
+    <div id="img-bg">
+      <img
+        src="https://images.pexels.com/photos/8468024/pexels-photo-8468024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="img"
+      />
+    </div>
+  </div>
+</div>
+
+<div id="body-card">
+   <h1> Read Our Blogs</h1>
+   <img src="https://bridal.naturals.in/_next/image?url=https%3A%2F%2Fcdn.deepsense.space%2Fbridals%2Fassets%2Fimages%2FbottomLayer.png&w=384&q=75" >
+  <div id="con-card">
+
+    <div id="card-body" *ngFor="let data of card_data  | keyvalue" >
+
+      <div id="card">
+        <div id="img-area">
+          <img
+            [src]="data.value.img_link"
+          />
+        </div>
+        <div id="text-area">
+          <p id="date" > {{data.value.date}} </p>
+          <h3>
+           {{data.value.title}}
+          </h3>
+          <p>
+          {{data.value.description}}
+          </p>
+          <!-- <button type="button"> <a> Read More </a></button> -->
+          <button type="button"><a> Read More </a></button>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+</div>
+<app-artical></app-artical>
+<!-- <app-footer></app-footer> -->

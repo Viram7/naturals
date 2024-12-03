@@ -1,0 +1,36 @@
+@if (images) {
+	<ngb-carousel [showNavigationArrows]="showNavigationArrows" [showNavigationIndicators]="showNavigationIndicators" id="con" >
+
+			<ng-template ngbSlide  id="con1" >
+				<div class="picsum-img-wrapper">
+					<img [src]="images[0]" alt="Random slide" />
+				</div>
+				<div class="carousel-caption">
+					<h3>India No. 1 Beauty Salon </h3>
+					<p>
+            At Naturals, we believe in the harmony of beauty and excellence.
+            Our mission is to provide top-notch beauty services using the
+            finest premium products. We strive to create an oasis of
+            serenity where you can relax, rejuvenate, and leave looking and
+            feeling your best.
+          </p>
+          <div><span><button id="bt1" ><a>BOOK APPOINTMENT</a></button> <button id="bt2" ><a>SALON LOCATOR </a></button></span></div>
+				</div>
+			</ng-template>
+      <ng-template ngbSlide   >
+				<div class="picsum-img-wrapper">
+					<img [src]="images[1]" alt="Random slide" />
+				</div>
+				<div class="carousel-caption">
+					<!-- <h3>No mouse navigation</h3> -->
+					<!-- <p>This carousel hides navigation arrows and indicators.</p> -->
+				</div>
+			</ng-template>
+     
+
+	</ngb-carousel>
+}
+
+
+
+

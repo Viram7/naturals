@@ -1,0 +1,29 @@
+<div id="body">
+  <div id="con">
+    <div id="text-box" >
+      <div id="text-box-in" >
+        <h4 id="work" >Working Hours</h4>
+        <p> If you wish to book an appointment at Nails, please choose any of the days shown below, and book with the desired day and time.</p>
+        <div id="day-list"  >
+          <div *ngFor="let daydata of workingdays" > <span> {{daydata.day}} </span> <span> {{daydata.time}} </span> <span> <button id="daybt" ><a>  {{daydata.canbook }}  </a></button> </span> </div>
+        </div>
+        <div id="address-book">
+          <div>
+            <img src="https://cdn.prod.website-files.com/64955fc7b431e096dc683699/649983d1c924550c7ab37280_Location%20Icon.png">
+            <div id="address" >
+              <h4>Address</h4>
+              <p> {{address}} </p>
+            </div>
+          </div>
+          <div>
+            <img src="https://cdn.prod.website-files.com/64955fc7b431e096dc683699/649983d1366870cf35e7c6fd_Book%20Icon.png">
+            <div id="book-by-phone" >
+              <h4>Book by Phone</h4>
+              <p> {{mob_no}} </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

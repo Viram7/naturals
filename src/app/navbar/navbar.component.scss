@@ -1,0 +1,78 @@
+
+// @import url('https://fonts.googleapis.com/css2?family=Knewave&family=Rufina:wght@400;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Knewave&family=Rufina:wght@400;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Knewave&family=Rufina:wght@400;700&family=Viaoda+Libre&display=swap');
+#nav-logo{
+  color: white;
+  font-size: 30px;
+
+  // font-weight: 600;
+  font-family: "Viaoda Libre", serif;
+}
+
+.up-bt{
+  all:unset;
+  color: rgba(255, 255, 255, 0.631);
+  transition: 300ms;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.up-bt:hover{
+  text-shadow: 0px 0px 1px rgb(255, 255, 255),1px 1px 20px rgb(255, 255, 255);
+  // color: white;
+}
+#navbarSupportedContent{
+  // position: relative;
+  // left: 100%;
+}
+.nav-con{
+  // position-absolute z-3
+  width: 100%;
+  position:absolute ;
+  z-index: 3;
+}
+
+@media screen and (max-width:768px) {
+
+.navbar-toggler{
+
+  box-shadow: none;
+
+  background-color: white;
+}
+  .nav-con{
+    // position-absolute z-3;
+    position:relative;
+    background-color: #352f28;
+    // z-index: 3;
+  }
+
+  #nav-logo{
+    color: white;
+    font-size: 20px;
+  }
+
+.up-bt{
+  all:unset;
+  // color: rgb(200, 255, 0);
+  color: rgba(255, 255, 255, 0.631);
+  transition: 300ms;
+  margin: 0px;
+  padding: 0px;
+
+  display: inline-block;
+
+}
+#navbarSupportedContent{
+
+  // position: relative;
+  left: 0%;
+  width: 100%;
+
+
+}
+
+}

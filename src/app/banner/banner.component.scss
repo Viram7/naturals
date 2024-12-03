@@ -1,0 +1,138 @@
+#con{
+  // display: flex;
+  // align-items: center;
+height: 650px;
+overflow: hidden;
+}
+img{
+  display: inline-block;
+  width: 100%;
+}
+
+
+.carousel-caption{
+  // margin-top: 50vmin;
+  top:20%;
+  // all:unset;
+    // margin-bottom: 100px;
+
+  // align-items: center;
+  // border: 1px solid black;
+  width: 45%;
+  // text-align: start;
+  font-size: 18px;
+  left: 10%;
+  h3{
+    font-size: 35px;
+  }
+  div{
+    span{
+        *{
+          all:unset;
+          padding: 5px;
+          margin: 10px;
+          border-radius: 5px;
+          font-weight: 500;
+          transition: 300ms;
+        }
+
+        #bt1{
+          background-color: white;
+          border: 3px solid white;
+
+          color: #352f28;
+          // color: black;
+          // font-weight: 700;
+        }
+        #bt1:hover{
+          color: #231f1a;
+          // background-color: rgb(77, 77, 233);
+
+        }
+        #bt2{
+
+          border: 3px solid white;
+          // box-sizing: border-box;
+          // color: #352f28;
+          // font-weight: 700;
+        }
+        button:hover{
+          // all:unset;
+          // padding: 6px;
+          box-shadow: 0px 0px 0px rgb(255, 255, 255),0px 0px 15px rgb(255, 255, 255);
+          // background-color: rgb(77, 77, 233);
+        }
+
+    }
+  }
+}
+
+
+@media screen and (max-width:768px) {
+  #con{
+    height: auto;
+    overflow: hidden;
+    }
+    img{
+      display: inline-block;
+      width: 100%;
+    }
+
+
+    .carousel-caption{
+      // margin-bottom: 45px;
+      top:0%;
+      // border: 1px solid black;
+      // color: red;
+      z-index: 10;
+      width: 45%;
+      text-align: start;
+      font-size: 2vmin;
+      left: 10%;
+      h3{
+        font-size: 3vmin;
+      }
+      div{
+        span{
+            *{
+              all:unset;
+              // padding: 5px;
+              width: 28vmin;
+              margin: 4px;
+              font-size: 6px;
+              border-radius: 5px;
+              font-weight: 500;
+              transition: 300ms;
+            }
+
+            #bt1{
+              background-color: white;
+              border: 1px solid white;
+
+              color: #352f28;
+              // color: black;
+              // font-weight: 700;
+            }
+            #bt1:hover{
+              color: #231f1a;
+              background-color: rgb(77, 77, 233);
+
+            }
+            #bt2{
+
+              border: 1px solid white;
+
+            }
+            button:hover{
+              // all:unset;
+              padding: 6px;
+              box-shadow: 0px 0px 0px rgb(255, 255, 255),0px 0px 15px rgb(255, 255, 255);
+              background-color: rgb(77, 77, 233);
+            }
+
+        }
+      }
+    }
+
+
+}
